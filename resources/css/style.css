@@ -65,7 +65,7 @@ header nav a{
 .images.secondline {
   display: inline-flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   width: 1000px;
   }
 
@@ -78,4 +78,33 @@ header nav a{
 .image h4 {
   text-align: center;
   margin-top: 10px;
+}
+
+#locations {
+    background-image:
+      url(../images/locations.jpg);
+    height: 500px;
+    width: 1200px;
+    margin: auto;
+    padding-top: 70px;
+}
+
+
+.blocks {
+  display: inline-flex;
+
+}
+
+.block {
+  display: flex;
+  width: 300px;
+  margin: 0 20px;
+  background-color: black;
+  justify-content: center;
+  flex-direction: column;
+  opacity: 1;
+}
+
+.block h2 {
+  margin-bottom: 15px;
 }
