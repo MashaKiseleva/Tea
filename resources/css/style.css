@@ -44,16 +44,16 @@ header nav a{
 #mission {
   display: flex;
   margin-top: 70px;
+  align-items: center;
   margin-left: auto;
   margin-right: auto;
-  align-items: center;
   background-image:
     url(../images/mission-background.jpg);
   height: 700px;
   width: 1200px;
   z-index: 1;
-
   }
+
 .text {
   background-color: black;
   z-index: 2;
@@ -89,10 +89,8 @@ header nav a{
     padding-top: 70px;
 }
 
-
 .blocks {
   display: inline-flex;
-
 }
 
 .block {
@@ -107,4 +105,21 @@ header nav a{
 
 .block h2 {
   margin-bottom: 15px;
+}
+
+footer {
+  text-align: left;
+  margin-left: 20px;
+}
+
+#contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 200px;
+  margin: 20px;
+}
+
+#contacts h5 {
+  margin: 10px;
 }
